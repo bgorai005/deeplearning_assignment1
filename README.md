@@ -19,7 +19,7 @@ Before training, the dataset undergoes preprocessing:
 The goal of this project is to develop a deep learning model capable of accurately classifying Fashion-MNIST images into one of the 10 categories. This involves:
 - Building a flexible neural network architecture with multiple hidden layers
 - Using various activation functions and optimization algorithms
-- Exploring hyperparameter tuning via Grid Search and Bayesian Optimization techniques
+- Exploring hyperparameter tuning via  Bayesian Optimization technique.
 
 ## Optimization Algorithms
 The following optimization techniques are implemented:
@@ -32,13 +32,11 @@ The following optimization techniques are implemented:
 
 ## Model Initialization
 To initialize the neural network, the following parameters are required:
-- **Input size** (flattened image dimensions)
-- **Output size** (number of classes)
 - **Number of hidden layers**
 - **Number of nodes per hidden layer**
 - **Weight initialization method**
 
-The network initialization function is implemented in `DL_Assignment1.ipynb` as `init_network()`.
+The network initialization function is implemented in `DL_Assignment1.ipynb` as `intial_weights`.
 
 ## Forward Propagation
 In the forward propagation step:
@@ -49,7 +47,7 @@ In the forward propagation step:
 ## Backward Propagation
 Backward propagation involves:
 - Performing forward propagation to obtain predictions
-- Calculating cross-entropy loss between predictions and actual labels
+- Calculating loss(cross_entropy and squared error loss) between predictions and actual labels
 - Computing gradients of the loss with respect to model parameters (weights and biases)
 - Using optimization algorithms to update model parameters, minimizing the loss over a specified number of epochs
 
@@ -57,6 +55,7 @@ Backward propagation involves:
 The `model_train` function trains the model with various hyperparameter configurations using Weights & Biases (W&B) sweep configurations. Training outputs include:
 - Training loss
 - Training accuracy
+- Validation Accuracy
 - Validation accuracy
 
 ## Additional Information
