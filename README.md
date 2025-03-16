@@ -57,6 +57,13 @@ The `model_train` function trains the model with various hyperparameter configur
 - Training accuracy
 - Validation Accuracy
 - Validation accuracy
+## Confusion Matrix
+For the best model we plot a confusion matrix with their corresponding hyperparameters.
+
+## Prediction on MNIST Dataset
+Three recomendation for  `hyperparameter` sets were selected and were run on the MNIST dataset. The configurations choosen are as follows:
+- Configuration 1
+- 
 
 ## Additional Information
 The neural network implementation and its optimizers are designed for efficient experimentation and learning, ensuring robustness and flexibility in hyperparameter tuning and model performance evaluation.
