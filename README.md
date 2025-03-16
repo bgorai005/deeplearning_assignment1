@@ -2,7 +2,7 @@
 # Fashion-MNIST Classification Project
 
 ## Overview
-This repository contains code for training and evaluating a neural network model for Fashion-MNIST image classification using various optimization techniques and hyperparameter tuning. The model is implemented in Python with libraries like NumPy, Matplotlib, and Keras' dataset module for data loading, and Scikit-learn's `train_test_split` for data partitioning.
+This repository contains code for training and evaluating a neural network model for Fashion-MNIST image classification using various optimization techniques and hyperparameter tuning. The model is implemented in Python with libraries like NumPy, pandas ,Matplotlib only and Keras for dataset module for data loading, and Scikit-learn's `train_test_split` for data partitioning.
 
 ## Dataset
 The Fashion-MNIST dataset consists of:
