@@ -83,6 +83,7 @@ To further evaluate the model’s robustness, three **recommended hyperparameter
 
 ---
 For more details, refer to `DL_Assignment1.ipynb` and the documented functions in the repository.
-The wandb report link [wandb report](https://wandb.ai/](https://wandb.ai/bgorai005-iit-madras/deep_learning_assignment_1/reports/DA6401_MA24M005_Assignment-1--VmlldzoxMTY0MjYxOQ/edit?draftId=VmlldzoxMTgyNjAyMQ==)
+The wandb report link [Visit W&B](https://wandb.ai/)
+
 
 
