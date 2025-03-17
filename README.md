@@ -54,8 +54,8 @@ The `model_train` function executes the training process with different hyperpar
 - **Training loss**
 - **Training accuracy**
 - **Validation loss**
-- **Validation accuracy**
-##Hyperparameters
+- **Validation accuracy** 
+## Hyperparameters
 
         Learning rate: 0.001, 0.0001
 
