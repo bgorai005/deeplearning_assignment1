@@ -1,8 +1,6 @@
 # DA6401 Assignment 1 - Fashion-MNIST Classification Project
-
-## Overview
-This repository contains code for training and evaluating a neural network model for Fashion-MNIST image classification. The project explores various optimization techniques and hyperparameter tuning to enhance model performance. The implementation is done using **NumPy, Pandas, Matplotlib, and Keras (for dataset loading)**, while **Scikit-learn's `train_test_split`** is used for data partitioning.
-
+##Problem Statement
+In this assignment, you will implement a feedforward neural network and manually code the backpropagation algorithm for training. You must use NumPy for all matrix and vector operations, without any automatic differentiation packages. The network will be trained on the Fashion-MNIST dataset to classify 28x28 grayscale images into 10 fashion categories. The project also explores various optimization techniques and hyperparameter tuning to enhance model performance. The implementation utilizes NumPy, Pandas, and Matplotlib, with Keras for dataset loading and Scikit-learn's train_test_split for data preprocessing.
 ## Dataset
 The **Fashion-MNIST** dataset comprises:
 - **60,000 training images** and **10,000 testing images**
@@ -57,17 +55,34 @@ The `model_train` function executes the training process with different hyperpar
 - **Training accuracy**
 - **Validation loss**
 - **Validation accuracy**
+##Hyperparameters
+
+        Learning rate: 0.001, 0.0001
+
+        Number of hidden layers: 3, 4, 5
+
+        Number of nodes in each hidden layer: 32, 64, 128
+
+        Activation function: sigmoid, relu, tanh
+
+        Optimization algorithm:  SGD, Adam, RMSprop, mgd, Nadam, nestrov
+
+        Batch size: 16, 32, 64
+
+        Epochs: 5, 10
+
+        Weight initialization: xavier, random
+  After that find the best configuration on the basis of validation accuracy.
 
 ## Confusion Matrix
 For the **best model**, a **confusion matrix** is plotted along with the corresponding **hyperparameters** to visualize classification performance.
 
 ## Predictions on MNIST Dataset
-To further evaluate the model’s robustness, three **recommended hyperparameter sets** were selected and tested on the **MNIST dataset**. The configurations used are:
-- **Configuration 1**
-- **Configuration 2**
-- **Configuration 3**
+To further evaluate the model’s robustness, three **recommended hyperparameter sets** were selected and tested on the **MNIST dataset**. 
 
 
 ---
 For more details, refer to `DL_Assignment1.ipynb` and the documented functions in the repository.
+The wandbProject link 
+
 
