@@ -1,5 +1,5 @@
 # DA6401 Assignment 1 - Fashion-MNIST Classification Project
-##Problem Statement
+## Problem Statement
 In this assignment, you will implement a feedforward neural network and manually code the backpropagation algorithm for training. You must use NumPy for all matrix and vector operations, without any automatic differentiation packages. The network will be trained on the Fashion-MNIST dataset to classify 28x28 grayscale images into 10 fashion categories. The project also explores various optimization techniques and hyperparameter tuning to enhance model performance. The implementation utilizes NumPy, Pandas, and Matplotlib, with Keras for dataset loading and Scikit-learn's train_test_split for data preprocessing.
 ## Dataset
 The **Fashion-MNIST** dataset comprises:
